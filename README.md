@@ -6,4 +6,4 @@ Tools for marketing
 
 * [Linkedin Copier](./linkedin-copier) to copy a profile as a Google Sheets row.
 
-Example: ![Demo](./linkedin-copier/linkedin-copier.gif)
+Example: ![Demo](/linkedin-copier/linkedin-copier.gif)

@@ -11,4 +11,4 @@ Usage:
    title, company, education, location, picture, linkedinURL, website,
    websiteName, phone, phoneName, email, twitter, connected, paragraph`
 
-![Demo](./linkedin-copier.gif)
+![Demo](linkedin-copier.gif)
