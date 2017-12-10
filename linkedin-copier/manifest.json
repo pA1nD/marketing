@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "author": "Björn Schmidtke",
+  "name": "Linkedin Copier",
+  "version": "0.0.0",
+  "description": "Copy profiles from linkedin and paste into Google Sheets",
+  "permissions": ["clipboardWrite", "clipboardRead"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
