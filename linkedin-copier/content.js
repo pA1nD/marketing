@@ -19,17 +19,13 @@ const licopyBtn = '.contact-see-more-less.link-without-visited-state'
 
 let m = {}
 
-// chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-//   if (request.message === 'clicked_browser_action') {
-//   }
-// })
-
 if (window.location.origin.match('linkedin.com') != null) {
   console.log('####### HELLO LinkedIN. Runnin Version: 6. #######')
+
   if (document.querySelector(licopyBtn) != null) {
     copy()
   } else {
-    console.log('OBSERVE')
+    console.log('Observing')
 
     var observer = new MutationObserver(mutations => {
       console.log('\nWaiting...\n')
